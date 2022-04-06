@@ -1,0 +1,8 @@
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/install/local.dir
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/install/strip.dir
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/install.dir
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/rebuild_cache.dir
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/edit_cache.dir
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/list_install_components.dir
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/libprotobuf.dir
+/Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/libprotobuf-lite.dir

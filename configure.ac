@@ -1,7 +1,7 @@
 ## Process this file with autoconf to produce configure.
 ## In general, the safest way to proceed is to run ./autogen.sh
 
-AC_PREREQ(2.59)
+AC_PREREQ([2.71])
 
 # Note:  If you change the version, you must also update it in:
 # * Protobuf.podspec
@@ -75,7 +75,7 @@ AC_ARG_WITH([protoc],
 # Checks for programs.
 AC_PROG_CC
 AC_PROG_CXX
-AC_PROG_CXX_FOR_BUILD
+AX_PROG_CXX_FOR_BUILD
 AC_LANG([C++])
 ACX_USE_SYSTEM_EXTENSIONS
 m4_ifdef([AM_PROG_AR], [AM_PROG_AR])
@@ -128,7 +128,15 @@ LDFLAGS=$save_LDFLAGS
 AM_CONDITIONAL([HAVE_LD_VERSION_SCRIPT], [test "$have_ld_version_script" == "yes"])
 
 # Checks for header files.
-AC_HEADER_STDC
+m4_warn([obsolete],
+[The preprocessor macro `STDC_HEADERS' is obsolete.
+  Except in unusual embedded environments, you can safely include all
+  ISO C90 headers unconditionally.])dnl
+# Autoupdate added the next two lines to ensure that your configure
+# script's behavior did not change.  They are probably safe to remove.
+AC_CHECK_INCLUDES_DEFAULT
+AC_PROG_EGREP
+
 AC_CHECK_HEADERS([fcntl.h inttypes.h limits.h stdlib.h unistd.h])
 
 # Checks for library functions.

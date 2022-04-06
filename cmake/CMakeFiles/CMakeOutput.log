@@ -1,0 +1,302 @@
+The target system is: Android - 1 - aarch64
+The host system is: Darwin - 21.3.0 - x86_64
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d1f2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8d1f2.dir/build.make CMakeFiles/cmTC_8d1f2.dir/build
+Building C object CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o
+/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot   -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080 -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=21 -D ANDROID -isysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-apple-darwin21.3.0
+ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include"
+ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_8d1f2
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d1f2.dir/link.txt --verbose=1
+/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -o cmTC_8d1f2 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -pie --fix-cortex-a53-843419 --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8d1f2 /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include]
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include]
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+  implicit include dirs: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include;/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_8d1f2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8d1f2.dir/build.make CMakeFiles/cmTC_8d1f2.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot   -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa --noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080 -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=21 -D ANDROID -isysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-apple-darwin21.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_8d1f2]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d1f2.dir/link.txt --verbose=1]
+  ignore line: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa --noexecstack -Wformat   -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a --sysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -o cmTC_8d1f2 ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -pie --fix-cortex-a53-843419 --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8d1f2 /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+    arg [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8d1f2] ==> ignore
+    arg [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_8d1f2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0660f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0660f.dir/build.make CMakeFiles/cmTC_0660f.dir/build
+Building CXX object CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o
+/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot  -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -std=c++11 -frtti -fexceptions   -fPIE   -v -o CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080 -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=21 -D ANDROID -isysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include -Wformat -std=c++11 -fdeprecated-macro -fdebug-compilation-dir /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-apple-darwin21.3.0
+ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include"
+ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include
+ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_0660f
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0660f.dir/link.txt --verbose=1
+/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -std=c++11 -frtti -fexceptions   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0660f 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -pie --fix-cortex-a53-843419 --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_0660f /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include]
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include]
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include]
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include]
+    add: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include]
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include]
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include]
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include]
+  collapse include dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+  implicit include dirs: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include;/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include;/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include;/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include;/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_0660f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0660f.dir/build.make CMakeFiles/cmTC_0660f.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot  -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa --noexecstack -Wformat -std=c++11 -frtti -fexceptions   -fPIE   -v -o CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080 -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=21 -D ANDROID -isysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include -internal-externc-isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include -Wformat -std=c++11 -fdeprecated-macro -fdebug-compilation-dir /Users/chengpan/Documents/Projects/YT/MY/protobuf/cmake/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-apple-darwin21.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/android/support/include]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/include]
+  ignore line: [ /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_0660f]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0660f.dir/link.txt --verbose=1]
+  ignore line: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot -isystem /Users/chengpan/Documents/Softwares/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa --noexecstack -Wformat -std=c++11 -frtti -fexceptions   -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a --sysroot /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0660f ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64 -pie --fix-cortex-a53-843419 --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_0660f /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+    arg [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0660f] ==> ignore
+    arg [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib] ==> dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_0660f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib] ==> [/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib]
+  implicit libs: [stdc++;m;gcc;gcc;dl;c;gcc;gcc;dl]
+  implicit dirs: [/Users/chengpan/Documents/Softwares/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/chengpan/Documents/Softwares/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/chengpan/Documents/Softwares/android-ndk-r16b/platforms/android-21/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
